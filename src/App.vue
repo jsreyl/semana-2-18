@@ -36,20 +36,19 @@ export default {
           title:"Arquitectura de Servicios Tecnológicos",
           descripcion:"Busca apoyar a la Dirección de Tecnologías y Sistemas de la Información o a quien haga sus veces con lineamientos y estándares orientados a la definición y diseño de la Arquitectura de la infraestructura tecnológica que se requiere para soportar los Sistemas de Información y el portafolio de servicios.",
           url:"https://www.mintic.gov.co/arquitecturati/630/w3-propertyvalue-8095.html",
-          imgurl: 1
+          image: require("./assets/servicio1.png")
         },
         {
           title:"Operación de Servicios Tecnológicos",
           descripcion:"Busca estructurar e implementar los procesos de operación, monitoreo y supervisión de los Servicios Tecnológicos.",
           url:"https://www.mintic.gov.co/arquitecturati/630/w3-propertyvalue-8096.html",
-          imgurl:2
+          image: require("./assets/servicio2.png")
         },
         {
           title:"Gestión de la calidad y seguridad de los Servicios Tecnológicos",
           descripcion:"Busca la definición y gestión de los controles y mecanismos para alcanzar los niveles requeridos de seguridad y trazabilidad de los Servicios Tecnológicos.",
           url:"https://www.mintic.gov.co/arquitecturati/630/w3-propertyvalue-8098.html",
-          imgurl:3
-        }
+          image: require("./assets/servicio3.png")}
       ]
     }
   }
