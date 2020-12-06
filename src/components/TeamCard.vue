@@ -4,7 +4,7 @@
             <img class="w-75" :src="member.image">
         </div>
         <div class="card-body">
-            <h5 class="card-title"> {{ member.nombre }} </h5>
+            <h5 class="card-title"> {{ member.nombre }} ({{member.codigo}}) </h5>
             <p class="card-text text-justify">{{ member.descripcion }} </p>
             <p> {{ member.rol }} </p>
         </div>
