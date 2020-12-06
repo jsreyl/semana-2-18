@@ -1,12 +1,12 @@
 <template>
-    <section class="news">
+    <section id="news">
         <div class="container-fluid">
             <div class="row mt-md-5">
                 <!-- Loop through each of the four movies we need -->
                 <div class="col-lg-6 col-xs-12" v-for="(item, index) of news" :key="index">
-                    <div class="d-flex justify-content-center align-items-center">
+                    <div class="d-flex justify-content-between align-items-center">
                         <div class="p-3">
-                            <img :src="item.urlToImage" :alt="item.title" class="news-img">
+                            <img :src="item.urlToImage" :alt="item.title" class="d-block w-100">
                         </div>
                         <div class="p-2">
                                 <h4>{{ item.title }}</h4>
@@ -45,10 +45,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.news-img{
-    max-width:100%;
-    height: auto;
-}
-</style>
