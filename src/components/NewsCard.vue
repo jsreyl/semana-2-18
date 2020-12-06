@@ -37,7 +37,7 @@ export default {
   mounted(){
       //Use axios to get news from the API
       axios
-      .get('http://newsapi.org/v2/top-headlines?country=co&apiKey=f17b2dcef15f4dc68cb959519bd71c55')
+      .get('https://newsapi.org/v2/top-headlines?country=co&category=technology&apiKey=f17b2dcef15f4dc68cb959519bd71c55')
       .then(response =>{
           (this.news=response.data.articles.slice(0,4)); //Slice since we only need 4 news to display
           console.log(this.news)
