@@ -1,15 +1,7 @@
 <template>
     <div class="card">
         <div class="d-flex justify-content-center p-2">
-            <div v-if="service.imgurl==1">
-                <img src="../assets/servicio1.png" :alt="service.title" class="d-block w-100 mh-100" style="height: 200px">
-            </div>
-            <div v-else-if="service.imgurl==2">
-                <img src="../assets/servicio2.png" :alt="service.title" class="d-block w-100 mh-100" style="height: 200px">
-            </div>
-            <div v-else>
-                <img src="../assets/servicio3.png" :alt="service.title" class="d-block w-100 mh-100" style="height: 200px">
-            </div>
+            <img :src="service.image" :alt="service.title" class="d-block mh-100" style="height: 200px">
         </div>
         <hr>
         <div class="card-body">
