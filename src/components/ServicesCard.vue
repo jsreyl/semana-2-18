@@ -18,8 +18,7 @@
 export default {
   name: 'ServicesCard',
   props:{
-      'service': Object,
-      'url': String
-  }
+      'service': Object
+    }
 }
 </script>
